@@ -4,12 +4,12 @@
 	{
 		"Signatures"
 		{
-			"CNetChan::SendNetMsg"
+			"CNetChan::SendNetMsg" //SendNetMsg %s: stream[%s] buffer overflow (maxsize = %d)!\n
 			{
 				"library" "engine"
 				"windows" 	"\x55\x8B\xEC\x83\xEC\x08\x56\x8B\xF1\x8B\x4D\x04"
 			}
-			"CNetMessage::WriteToBuffer"
+			"CNetMessage::WriteToBuffer" //Sounds [count=%d]
 			{
 				"library" "engine"
 				"windows" "\xE8\x2A\x2A\x2A\x2A\x83\xBE\x2A\x2A\x2A\x2A\x2A\x74\x12"
